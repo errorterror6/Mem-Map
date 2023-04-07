@@ -1,4 +1,3 @@
-import Memory from "./Memory";
 
 export default class MapMarker {
     constructor(location, MarkerID, Memory) {

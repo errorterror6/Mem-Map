@@ -1,4 +1,3 @@
-import Memories from "./Memories";
 
 //create Memory class
 export default class Memory {
@@ -10,5 +9,13 @@ export default class Memory {
         this.title = title;
         this.description = description;
         this.id = id;
+    }
+
+    getLocation() {
+        return this.location;
+    }
+
+    getThis() {
+        return this;
     }
 }
